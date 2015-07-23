@@ -1,0 +1,57 @@
+//solve dead lock 
+//solve producerConsumer problem
+
+class myThread extends Thread
+- public void run()
+- synchronised void startWait()
+- synchronised void notice()
+- setPriority()
+	Thread t = Thread.currentThread()
+  myThread t = new myThread();
+  t.setName("Name");
+  t.isAlive();
+  t.start();
+  t.join()
+  t.getName()
+	Thread.sleep(1000)
+  t.getState()
+  
+      wait()
+      notify()
+  t.notice()
+  t.getPriority()
+
+	ThreadGroup tg = Thread.currentThread().getThreadGroup()
+	tg.activeCount()
+  t.isInterrupted()
+  t.interrupt()
+
+How to check a thread is alive or not?
+	t.isAlive()
+How to check a thread has stop or not?
+
+How to solve deadlock using thread?
+
+How to get the priorities of running threads?
+
+How to monitor a thread's status?
+
+How to get the name of a running thread?
+
+How to solve the producer consumer problem using thread?
+
+How to set the priority of a thread?
+
+How to stop a thread?
+
+How to suspend a thread for a while?
+
+How to get the Id of the running thread?
+
+How to check priority level of a thread?
+
+How to display all running Thread?
+
+How to display thread status?
+
+How to interrupt a running Thread?
