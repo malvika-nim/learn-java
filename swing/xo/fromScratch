@@ -1,0 +1,8 @@
+1) can't do something outside function, to perform action need to define function
+2) can't see the frame. Need to setVisible: true
+3) too small. fix size
+4) added button.
+5) but button is too big. lets small it. setting size is not hepling.
+6) putting two buttons -> one on top of 
+7) setting layout as null worked. Default was borderLayout. frame.add(new JButton("Okay"), BorderLayout.SOUTH); worked to add to south.
+8) instead of creating an actionListener subclass, made the main class as ActionListener, as need to pass in objects to the listener. And listener needs to modify these.  
