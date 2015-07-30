@@ -1,3 +1,7 @@
+//Important points about threads
+Java has multiple threads, but only one thread class
+
+
 //solve dead lock 
 //solve producerConsumer problem
 
