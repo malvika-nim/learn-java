@@ -1,0 +1,19 @@
+Event = Change in state of an object.
+clicking on a button, moving the mouse, entering a character through keyboard,selecting an item from list, scrolling the page
+
+Event handling = Capture event, and decide what to do	
+
+Source: On which event occurs
+Listener: Which listens to this event and provides response
+
+STORY
+click -> event generated
+-> event class object created, with info about source/event
+-> event object forwarded to listener
+-> method gets executed and returns
+
+
+LISTENER must implement listener interface, so as we know what all functionalities it must provide
+
+Callback methods = called when event comes in, by java internally. They link to listener interface functions
+
