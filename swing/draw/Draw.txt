@@ -1,0 +1,6 @@
+Add method-
+ public void paint(Graphics g) {
+      g.fillRect (5, 15, 50, 75);
+   }
+
+and to this add g.<>, use netbeans to get list of different things that can be done.
